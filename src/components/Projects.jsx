@@ -36,7 +36,7 @@ function Projects() {
             <h2 className="text-2xl my-4">Finance Tracker</h2>
             <a
               className="border-2 border-gray-600 rounded-[2rem] px-5 py-3 mr-4 hover:text-white hover:bg-black"
-              href="https://github.com/feranmiWebWizard/Budget-Buddy"
+              href="https:https://github.com/vikaskumar12n/React-portpolio-website"
               target="_blank"
             >
               Github
