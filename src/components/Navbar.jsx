@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import Logo from "../assets/images/Log.png";
 function Navbar() {
   const [menuState, setMenuState] = useState("menu");
 
@@ -20,7 +20,7 @@ function Navbar() {
         <span className="text-4xl">
          <a href="#home">
   <img
-    src="/src/assets/images/Log.png"
+    src={Logo}
     alt="VB Logo"
     className="w-20 h-20 object-contain"
   />
