@@ -1,6 +1,8 @@
 import BudgetBuddy from "../assets/images/budget-buddy.png";
 import Lsg from "../assets/images/lsg.png";
-
+import resume from "../assets/images/resume.jpeg";
+import { Link } from "react-router-dom";
+import download from "../assets/images/download.jpeg";
 function Projects() {
   return (
     <>
@@ -14,14 +16,14 @@ function Projects() {
         <section className="text-center grid lg:grid-cols-3 gap-4">
           <div className="border-2 border-gray-600 rounded-[1.5rem] p-8">
             <img
-              src={Lsg}
+              src={resume}
               alt="a recruitment company website"
               className="w-[20rem]"
             />
-            <h2 className="text-2xl my-4">Recruitment Company</h2>
+            <h2 className="text-2xl my-4">Resume Builder</h2>
             <a
               className="border-2 border-gray-600 rounded-[2rem] px-5 py-3 hover:text-white hover:bg-black"
-              href="https://lsgconsultinggroup.com/"
+              href="https://rb-frontend-rosy.vercel.app/"
               target="_blank"
             >
               View Site
@@ -36,22 +38,16 @@ function Projects() {
             <h2 className="text-2xl my-4">Persnal PortFolio</h2>
             <a
               className="border-2 border-gray-600 rounded-[2rem] px-5 py-3 mr-4 hover:text-white hover:bg-black"
-              href="https:https://github.com/vikaskumar12n/React-portpolio-website"
-              target="_blank"
-            >
-              Github
-            </a>
-            <a
-              className="border-2 border-gray-600 rounded-[2rem] px-5 py-3 hover:text-white hover:bg-black"
-              href="https://cactus-budget-buddy.netlify.app/"
+              href="https://vikas-bind-portfolio.vercel.app/"
               target="_blank"
             >
               View Site
             </a>
+            
           </div>
           <div className="border-2 border-gray-600 rounded-[1.5rem] p-8">
-            <img src="" alt="" />
-            <h2 className="text-2xl my-3">Witty Bakehouse</h2>
+            <img src={download} alt="" />
+            <h2 className="text-2xl my-3">Transport Management System</h2>
             <button className="border-2 border-gray-600 rounded-[2rem] px-5 py-2 mr-4 hover:text-white hover:bg-black">
               Github
             </button>

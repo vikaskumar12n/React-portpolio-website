@@ -18,7 +18,13 @@ function Navbar() {
     <nav className="bg-white md:flex items-center justify-around sticky top-0 px-4 py-6">
       <div className="flex justify-between items-center">
         <span className="text-4xl">
-          <a href="#home">VB</a>
+         <a href="#home">
+  <img
+    src="/src/assets/images/Log.png"
+    alt="VB Logo"
+    className="w-20 h-20 object-contain"
+  />
+</a>
         </span>
         <svg
           className="md:hidden cursor-pointer"

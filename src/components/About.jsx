@@ -25,8 +25,8 @@ function About() {
           </span>
           <h2 className="font-bold text-lg">Experience</h2>
           <p>
-            1+ years <br /> Mern Stack Developer <br />
-            Full stack Web Development
+            2+ years <br /> Mern Stack Developer <br />
+            Full stack Development with AI
           </p>
         </div>
         <div className="text-center border-2 border-gray-600 rounded-[1.5rem] flex flex-col items-center w-[18rem] p-5">
@@ -53,7 +53,9 @@ function About() {
 
       <section className="max-w-[40rem] mx-auto mt-10 p-4">
         <p>
-        A skilled and dedicated MERN Stack Developer with experience building dynamic and responsive web applications using MongoDB, Express.js, React.js, and Node.js. Adept at managing all stages of the development lifecycle, from concept through deployment. Passionate about delivering high-quality solutions and optimizing user experiences, while always staying up-to-date with emerging technologies
+      A skilled and dedicated MERN Stack Developer with experience building dynamic and responsive web applications using MongoDB, Express.js, React.js, and Node.js. Proficient in developing scalable full-stack applications, REST APIs, authentication systems, and responsive user interfaces. Experienced with cloud services using AWS
+ and workflow automation using n8n
+. Strong knowledge of databases including MySQL, MSSQL, PostgreSQL, and MongoDB. Adept at managing all stages of the development lifecycle, from concept through deployment. Passionate about delivering high-quality solutions, optimizing user experiences, and staying up-to-date with emerging technologies.
         </p>
       </section>
     </div>

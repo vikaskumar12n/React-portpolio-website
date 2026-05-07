@@ -1,5 +1,5 @@
 import image from "../assets/images/persnal.jpeg";
-import pdf from '../assets/images/vikasbind.pdf.pdf'
+import pdf from '../assets/images/Vikasbind_octv.pdf.pdf'
 import Typewriter from 'typewriter-effect';
 
 function Home() {
